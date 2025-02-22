@@ -1,3 +1,4 @@
+# Check SQL Injection
 def check_sql_injection(input_string):
 	sql_injection_patterns = ['"', '|', '=', '--', '~']
 	for pattern in sql_injection_patterns:
